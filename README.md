@@ -11,7 +11,7 @@ The terminal programs I use can be installed through [`brew`](https://brew.sh) b
 $ . ./dotfiles/brew.sh
 ```
 
-I also had to make a `misc-installs.sh` script to install other necessary pieces of software which I could not install using `brew`. This includes [the `zsh-spaceship` prompt](https://github.com/denysdovhan/spaceship-prompt).
+I also had to make a `misc-installs.sh` script to install other necessary pieces of software which I could not install using `brew`. 
 
 :warning: **I recommend you to run this script before running any of the others as they might depend on programs previously installed.**
 
