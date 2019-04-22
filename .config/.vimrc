@@ -1,1 +1,1 @@
-Plug 'arcticicestudio/nord-vim'
+autocmd vimenter * NERDTree
