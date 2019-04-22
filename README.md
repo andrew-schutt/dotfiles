@@ -1,8 +1,4 @@
-# dotfiles - [Lucas F. Costa](https://lucasfcosta.com)
-
-The best dotfiles in the entire universe.
-
-![my terminal using the dotfiles in this repo](./terminal-demo.png)
+# dotfiles - Andrew Schutt
 
 
 ## Usage Guidelines
