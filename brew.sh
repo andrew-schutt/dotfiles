@@ -31,6 +31,7 @@ brew install gnupg
 # and know how to show hidden files
 # It is also a good CLI tool
 brew install ag
+brew install cask
 
 # This is needed for python support on Neovim for YouCompleteMe
 # Please see https://github.com/neovim/neovim/issues/1315
@@ -52,27 +53,6 @@ brew install git
 brew install yarn --without-node
 brew install tmux
 
-
-
-# -------------------------------
-# Casks
-# -------------------------------
-
-brew install cask
-
-# Dev utilities
-brew cask install docker
-brew cask install tunnelblick
-
-# Browsers
-brew cask install google-chrome
-brew cask install firefox
-
-# Communication
-brew cask install rocket
-brew cask install slack
-brew cask install skype
-
 # Change the user's life forever
 # God bless the best text editor on earth
 brew install vim --with-override-system-vi
@@ -81,9 +61,6 @@ nvim +PlugClean! +qall
 nvim +silent +PlugInstall +qall
 python3 ~/.config/nvim/plugged/YouCompleteMe/install.py
 
-# vim's best friend
-brew install tmux
-
 brew install git
 brew install git-lfs
 brew install ssh-copy-id
@@ -91,6 +68,15 @@ brew install ssh-copy-id
 brew install docker
 brew install docker-compose
 brew install docker-machine
+
+brew install elixir
+brew install cowsay
+brew install kubectl
+brew install jq
+
+brew install zsh-completions
+brew install imagemagick
+brew install tree
 
 # Remove outdated versions from the cellar.
 brew cleanup

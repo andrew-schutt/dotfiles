@@ -10,20 +10,27 @@ brew update
 # Upgrade any already-installed casks
 brew cask upgrade
 
-# Time for some action
+# -------------------------------
+# Casks
+# -------------------------------
+
+# Communication
 brew cask install slack
+
+# Browsers
 brew cask install firefox
-brew cask install firefox-nightly
 brew cask install google-chrome
+
+# Media
 brew cask install spotify
-brew cask install iterm2
-brew cask install flux
-brew cask install docker
-brew cask install dropbox
-brew cask install skype
-brew cask install tunnelblick
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
 brew cask install vlc
-brew cask install evernote
-brew cask install rocket
+
+# Dev Tools
+brew cask install iterm2
+brew cask install docker
+brew cask install kaleidoscope
+brew cask install postman
+
+# Random
+brew cask install alfred
+
