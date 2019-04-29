@@ -73,7 +73,7 @@ call plug#end()
 call neomake#configure#automake('w')
 
 " Open NERDTree automatically when vim starts up
-" autocmd vimenter * NERDTree
+autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
 " NERDTree
 let NERDTreeShowHidden=1
 map <silent> <C-n> :NERDTreeToggle<CR>

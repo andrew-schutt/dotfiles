@@ -1,1 +1,1 @@
-autocmd vimenter * NERDTree
+autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
