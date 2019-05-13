@@ -149,6 +149,8 @@ let g:user_emmet_settings = {
 \  },
 \}
 
+" map :UndoTreeToggle
+nnoremap <F5> :UndotreeToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Visual Related Configs
