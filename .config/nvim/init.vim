@@ -35,9 +35,6 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 " A client to TSSServer so that we can get autocompletion
 Plug 'Quramy/tsuquyomi'
 
-" rust support
-Plug 'rust-lang/rust.vim'
-
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
@@ -72,14 +69,9 @@ call plug#end()
 " Neomake async hooks
 call neomake#configure#automake('w')
 
-" Open NERDTree automatically when vim starts up
-autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
 " NERDTree
 let NERDTreeShowHidden=1
 map <silent> <C-n> :NERDTreeToggle<CR>
-
-" close NERDTree after a file is opened
-let g:NERDTreeQuitOnOpen=1
 
 " enable highlight for JSDocs
 let g:javascript_plugin_jsdoc = 1
@@ -187,13 +179,6 @@ set invlist
 set list
 set listchars=tab:¦\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 
-" disable scrollbars (real hackers don't use scrollbars)
-set guioptions-=r
-set guioptions-=R
-set guioptions-=l
-set guioptions-=L
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Keymappings
@@ -228,9 +213,9 @@ set directory=/tmp//
 nnoremap <C-P> :Files<CR>
 
 " YouCompleteMeMappings
-nnoremap ,dl    :YcmCompleter GoToDeclaration<CR>
-nnoremap ,df    :YcmCompleter GoToDefinition<CR>
-nnoremap ,#     :YcmCompleter GoToReferences<CR>
+nnoremap <space>dl    :YcmCompleter GoToDeclaration<CR>
+nnoremap <space>df    :YcmCompleter GoToDefinition<CR>
+nnoremap <space>#     :YcmCompleter GoToReferences<CR>
 
 
 
