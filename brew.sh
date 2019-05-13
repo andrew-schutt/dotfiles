@@ -50,7 +50,6 @@ brew install openssh
 
 # Install other useful binaries.
 brew install yarn
-brew install tmux
 
 # Change the user's life forever
 # God bless the best text editor on earth
