@@ -217,7 +217,7 @@ nnoremap <space>dl    :YcmCompleter GoToDeclaration<CR>
 nnoremap <space>df    :YcmCompleter GoToDefinition<CR>
 nnoremap <space>#     :YcmCompleter GoToReferences<CR>
 
-
+nnoremap <C-l><C-l>:nohl<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Indentation
