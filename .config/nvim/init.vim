@@ -157,8 +157,6 @@ let g:user_emmet_settings = {
 " 256 colors
 set t_Co=256
 
-" set colorscheme
-colorscheme nord
 
 " long lines as just one line (have to scroll horizontally)
 set nowrap
@@ -213,7 +211,7 @@ nnoremap <space>dl    :YcmCompleter GoToDeclaration<CR>
 nnoremap <space>df    :YcmCompleter GoToDefinition<CR>
 nnoremap <space>#     :YcmCompleter GoToReferences<CR>
 
-nnoremap <C-l><C-l>:nohl<cr>
+nnoremap <C-l> <C-l>:nohl<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Indentation
