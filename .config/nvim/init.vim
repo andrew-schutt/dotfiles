@@ -48,9 +48,6 @@ Plug 'editorconfig/editorconfig-vim'
 " emmet
 Plug 'mattn/emmet-vim'
 
-" semantic-based completion
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
-
 " linting engine
 Plug 'w0rp/ale'
 
