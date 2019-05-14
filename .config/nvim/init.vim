@@ -23,18 +23,6 @@ Plug 'arcticicestudio/nord-vim'
 " neomake
 Plug 'neomake/neomake'
 
-" JavaScript Highlight & Improved Indentation
-Plug 'pangloss/vim-javascript'
-
-" Typescript Syntax Highlight
-Plug 'leafgarland/typescript-vim'
-
-" Async execution library needed by tsuquyomi
-Plug 'Shougo/vimproc.vim', {'do' : 'make'}
-
-" A client to TSSServer so that we can get autocompletion
-Plug 'Quramy/tsuquyomi'
-
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
@@ -63,9 +51,6 @@ call neomake#configure#automake('w')
 " NERDTree
 let NERDTreeShowHidden=1
 map <silent> <C-n> :NERDTreeToggle<CR>
-
-" enable highlight for JSDocs
-let g:javascript_plugin_jsdoc = 1
 
 " disable auto_triggering ycm suggestions pane and instead
 " use semantic completion only on Ctrl+n
@@ -153,7 +138,6 @@ set invlist
 set list
 set listchars=tab:¦\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Keymappings
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -163,12 +147,6 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
-
-" really, just dont
-inoremap <Up>    <NOP>
-inoremap <Down>  <NOP>
-inoremap <Left>  <NOP>
-inoremap <Right> <NOP>
 
 " copy and paste to/from vIM and the clipboard
 nnoremap <C-y> +y
@@ -185,11 +163,6 @@ set directory=/tmp//
 
 " map fzf to ctrl+p
 nnoremap <C-P> :Files<CR>
-
-" YouCompleteMeMappings
-nnoremap <space>dl    :YcmCompleter GoToDeclaration<CR>
-nnoremap <space>df    :YcmCompleter GoToDefinition<CR>
-nnoremap <space>#     :YcmCompleter GoToReferences<CR>
 
 nnoremap <C-l> <C-l>:nohl<cr>
 
@@ -215,8 +188,6 @@ set ai
 " Smart indent
 " Automatically inserts one extra level of indentation in some cases, and works for C-like files
 set si
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Utils (a.k.a. mess I can't categorize)
