@@ -112,15 +112,6 @@ let g:ycm_filepath_blacklist = {
       \ 'xml': 1,
       \}
 
-" fix files on save
-let g:ale_fix_on_save = 1
-
-" fixer configurations
-let g:ale_fixers = {
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['prettier'],
-\}
-
 " make FZF respect gitignore if `ag` is installed
 if (executable('ag'))
     let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
