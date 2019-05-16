@@ -20,9 +20,6 @@ call plug#begin()
 " nord-vim colorscheme
 Plug 'arcticicestudio/nord-vim'
 
-" neomake
-Plug 'neomake/neomake'
-
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
@@ -44,9 +41,6 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin Related Configs
 """""""""""""""""""""""""""""""""""""""""""""""
-
-" Neomake async hooks
-call neomake#configure#automake('w')
 
 " NERDTree
 let NERDTreeShowHidden=1
