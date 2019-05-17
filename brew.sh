@@ -73,13 +73,17 @@ brew install docker-compose
 brew install docker-machine
 
 brew install elixir
-brew install cowsay
 brew install kubectl
 brew install jq
 
 brew install zsh-completions
 brew install imagemagick
 brew install tree
+
+# Just because ok?
+brew install cowsay
+brew install sl
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
