@@ -45,7 +45,7 @@ pip3 install --user --upgrade neovim
 
 # Install `wget` with IRI support.
 brew install wget
-
+brew install telnet
 brew install curl
 
 # Install more recent versions of some macOS tools.
