@@ -31,6 +31,11 @@ brew install gnupg
 # and know how to show hidden files
 # It is also a good CLI tool
 brew install ag
+
+# This is the even faster awk/grep/ag tool
+brew install ripgrep
+
+# Prereq for casks to get installed
 brew install cask
 
 # This is needed for python support on Neovim for YouCompleteMe
