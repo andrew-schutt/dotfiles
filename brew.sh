@@ -83,6 +83,7 @@ brew install tree
 # Just because ok?
 brew install cowsay
 brew install sl
+brew install cmatrix
 
 
 # Remove outdated versions from the cellar.
