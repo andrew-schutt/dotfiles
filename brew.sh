@@ -45,6 +45,7 @@ pip3 install --user --upgrade neovim
 
 # Install `wget` with IRI support.
 brew install wget
+# mostly just for telnet towel.blinkenlights.nl
 brew install telnet
 brew install curl
 
