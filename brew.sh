@@ -65,6 +65,7 @@ nvim +PlugClean! +qall
 nvim +silent +PlugInstall +qall
 python3 ~/.config/nvim/plugged/YouCompleteMe/install.py
 
+# Useful dev utilities
 brew install git
 brew install git-lfs
 brew install ssh-copy-id
@@ -76,6 +77,11 @@ brew install docker-machine
 brew install elixir
 brew install kubectl
 brew install jq
+
+# But have you ever not used a GUI?
+brew install lynx
+brew install cmus
+brew install youtube-dl
 
 brew install zsh-completions
 brew install imagemagick
