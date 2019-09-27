@@ -36,6 +36,9 @@ Plug 'mattn/emmet-vim'
 " Undo history viewer
 Plug 'mbbill/undotree'
 
+" auto pair quotes/parens/curlys
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""
