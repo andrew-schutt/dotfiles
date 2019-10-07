@@ -78,6 +78,8 @@ brew install elixir
 brew install kubectl
 brew install jq
 
+brew install dash
+
 # But have you ever not used a GUI?
 brew install lynx
 brew install cmus
