@@ -30,6 +30,7 @@ brew cask install iterm2
 brew cask install docker
 brew cask install kaleidoscope
 brew cask install postman
+brew cask install visual-studio-code
 
 # Random
 brew cask install alfred
