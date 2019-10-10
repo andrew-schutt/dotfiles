@@ -34,6 +34,5 @@ brew cask install visual-studio-code
 
 # Random
 brew cask install alfred
-brew cask install timing
 brew cask install boostnote
-
+brew cask install dropbox
