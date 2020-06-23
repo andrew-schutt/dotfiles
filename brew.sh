@@ -45,6 +45,7 @@ pip3 install --user --upgrade neovim
 
 # Install `wget` with IRI support.
 brew install wget
+
 # mostly just for telnet towel.blinkenlights.nl
 brew install telnet
 brew install curl
@@ -57,7 +58,6 @@ brew install openssh
 # Install other useful binaries.
 brew install yarn
 
-# Change the user's life forever
 # God bless the best text editor on earth
 brew install vim
 brew install neovim 
@@ -73,27 +73,35 @@ brew install ssh-copy-id
 brew install docker
 brew install docker-compose
 brew install docker-machine
+brew install jesseduffield/lazydocker/lazydocker
+brew install lazydocker
+brew install ctop
 
 brew install elixir
 brew install kubectl
 brew install jq
 
 brew install dash
+brew install fd
+brew install fzf
+
+brew install zsh-completions
+brew install starship
+brew install imagemagick
+
+brew install tldr
+brew install httpie
 
 # But have you ever not used a GUI?
 brew install lynx
 brew install cmus
 brew install youtube-dl
-
-brew install zsh-completions
-brew install imagemagick
 brew install tree
 
 # Just because ok?
 brew install cowsay
 brew install sl
 brew install cmatrix
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
