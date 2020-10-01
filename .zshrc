@@ -60,8 +60,6 @@ export NVM_DIR="$HOME/.nvm"
 export EDITOR=nvim
 export GREP_OPTIONS='--color=auto'
 
-eval "$(starship init zsh)"
-
 for cmd in rspec ruby rubocop rails; do
   alias $cmd="bundle exec $cmd"
 done
