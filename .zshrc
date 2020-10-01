@@ -60,6 +60,6 @@ export NVM_DIR="$HOME/.nvm"
 export EDITOR=nvim
 export GREP_OPTIONS='--color=auto'
 
-for cmd in rspec ruby rubocop rails; do
+for cmd in rspec ruby rubocop rails jekyll; do
   alias $cmd="bundle exec $cmd"
 done
