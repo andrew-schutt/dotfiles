@@ -20,6 +20,7 @@ brew cask install slack
 # Browsers
 brew cask install firefox
 brew cask install google-chrome
+brew cask install brave-browser
 
 # Media
 brew cask install spotify
